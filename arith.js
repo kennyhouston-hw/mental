@@ -190,7 +190,7 @@ function afCalc() {
 
     if (resEq == valEq) {
         equalsOk++
-        aWin.innerHTML = 'Правильно<br><br><div class="arith-btn" onclick="afNext()">Далее</div>'
+        aWin.innerHTML = 'Правильно👍<br><br><div class="arith-btn" onclick="afNext()">Далее</div>'
     } else {
         aWin.innerHTML = 'Ошибка<br>' + valEq + ' ≠ ' + resEq + '<br><br><div class="arith-btn" onclick="afNext()">Далее</div>'
     }
